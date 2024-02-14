@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main-wrapper{
+  width: 30%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 50px #19191955;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper img{
+  width: 200px;
+  height: 200px;
+}
+
+.main-wrapper button {
+  background-color: #4caf50;
+  border:none;
+  color:white;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.c-gold{
+  color: gold;
+}
+
+.c-green{
+  color: #4caf50;
+}
+
+form{
+  width: 30%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 30px;
+}
+
+.msgCotent{
+  background-color: black;
+  color: gold;
+  width: fit-content;
+  padding: 10px;
+}
+
+#clearbtn{
+  background-color: darksalmon;
+}
+
